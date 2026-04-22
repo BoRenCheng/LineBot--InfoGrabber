@@ -1,7 +1,8 @@
-# LineBot--InfoGrabber 整合天氣、新聞與即時地震示警的多功能 Line 聊天機器人
-平常出門總要開好幾個 App 查天氣、看新聞、確認附近的美食？**「資訊一把抓」**是為了解決日常資訊碎片化而開發的 Line 聊天機器人。透過整合政府開放資料、Google Maps API與即時爬蟲技術，讓使用者在最熟悉的 Line 介面中，透過簡單的點擊與定位，獲取低延遲的個人化生活資訊。
+# LineBot--InfoGrabber 
+# 整合天氣、新聞與即時地震示警的多功能 Line 聊天機器人
+平常出門總要開好幾個 App 查天氣、看新聞、確認附近的美食？「資訊一把抓」是為了解決日常資訊碎片化而開發的 Line 聊天機器人。透過整合政府開放資料、Google Maps API 與即時爬蟲技術，讓使用者在最熟悉的 Line 介面中，透過簡單的點擊與定位，獲取低延遲的個人化生活資訊。
 
-##  實際操作 Demo
+##  實際操作影片
 
 [![InfoGrabber 系統展示](https://img.youtube.com/vi/kB-6KlzHT4E/maxresdefault.jpg)](https://www.youtube.com/watch?v=kB-6KlzHT4E)
 
@@ -11,7 +12,7 @@
 
 ## 💡 核心功能與實作細節
 
-本專案不僅僅是串接 API，在資料處理與互動體驗上實作了以下機制：
+本專案在資料處理與互動體驗上實作了以下機制：
 
 ### 1. 適地性服務 (LBS) 與動態防護建議
 * **精準定位**：使用者傳送 Line Location 訊息後，後端透過 `Google Maps Geocoding API` 進行逆向地理編碼，將經緯度轉換為實際行政區地址。
