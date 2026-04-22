@@ -1,2 +1,2 @@
-# LineBot--
+# LineBot--InfoGrabber
 整合天氣、新聞與即時地震示警的多功能 Line 聊天機器人
