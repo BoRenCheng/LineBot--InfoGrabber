@@ -45,6 +45,7 @@
 ---
 ## 授權
 Copyright (c) 2026 Bo-Ren Cheng(BoRenCheng)
+
 本專案採用 MIT License 授權。
 
 ## 本地端運行指南
