@@ -43,6 +43,9 @@
   * 環境部 (空氣品質指標 AQI)
 
 ---
+## 授權
+Copyright (c) 2026 Bo-Ren Cheng(BoRenCheng)
+本專案採用 MIT License 授權。
 
 ## 本地端運行指南
 
@@ -63,3 +66,4 @@ cd LineBot-InfoGrabber
 
 # 安裝依賴套件
 pip install -r requirements.txt
+
